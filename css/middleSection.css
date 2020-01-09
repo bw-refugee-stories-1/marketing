@@ -61,3 +61,15 @@
   top: 70%;
   bottom: 75%;
 }
+.back {
+  background: #17644A;
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 25%;
+}

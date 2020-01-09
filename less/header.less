@@ -7,7 +7,7 @@
     display: flex;
   justify-content: center;
   align-items: center;
-  color: #17644A;
+  color: @green-pea;
   font-family: Lato;
 font-style: normal;
 font-weight: 600;
@@ -26,5 +26,11 @@ align-items: center;
 color: #202020;
 margin-left: 25%;
 margin-right: 25%;
+}
+
+@media (max-width: 500px) {
+    .headerPhoto{
+        display: none;
+    }
 }
 
